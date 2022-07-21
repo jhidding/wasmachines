@@ -1,0 +1,21 @@
+[book]
+title = "1d cellular automata"
+authors = ["Johannes Hidding", "Luuk van der Duim"]
+description = "WASM, egui practice demo"
+src = "lit"
+language = "en"
+
+[rust]
+edition = "2018"
+
+[build]
+build-dir = "book"
+
+[output.html]
+mathjax-support = true
+
+[output.html.playground]
+runnable = false
+
+[preprocessor.bib]
+bibliography = "ref.bib"
